@@ -3,6 +3,7 @@ import NavBar from './components/NavBar.vue'
 import DatosPersonales from './components/DatosPersonales.vue'
 import EducacionTimeLine from './components/EducacionTimeLine.vue';
 import ExperienciaView from './components/ExperienciaView.vue';
+import ProyectoComponente from './components/ProyectoComponente.vue';
 </script>
 
 <template>
@@ -26,6 +27,8 @@ import ExperienciaView from './components/ExperienciaView.vue';
     </section>
     <section id="proyectos">
       <h2>Proyectos</h2>
+      <!--Componente Proyecto Componente-->
+      <ProyectoComponente />
     </section>
     <section id="habilidades">
       <h2>Habilidades</h2>
