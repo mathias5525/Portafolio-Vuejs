@@ -13,6 +13,7 @@
           <h3 class="timeline-periodo">{{ item.periodo }}</h3>
           <h4 class="timeline-titulo">{{ item.titulo }}</h4>
           <p class="timeline-descripcion">{{ item.descripcion }}</p>
+          <p class="timeline-descripcion2">{{ item.descripcion2 }}</p>
         </div>
       </div>
     </div>
@@ -23,18 +24,21 @@
 const timeline = [
   {
     periodo: "2008 - 2015",
-    titulo: "Ayudante de Electricista",
-    descripcion: "Electricidad domiciliaria e industrial",
+    titulo: "Empresa familiar",
+    descripcion: "Electricidad domiciliaria e industrial:",
+    descripcion2: "Instalaciones electricas domiciliarias, armado de tableros, mantenimiento industrial",
   },
   {
     periodo: "2013 - Actualmente",
     titulo: "Hospital Grl. Las Heras",
-    descripcion: "IT Servicio Informático",
+    descripcion: "IT Servicio Informático:",
+    descripcion2: "Soporte técnico, mantenimiento de hardware y software, gestión de redes.",
   },
   {
     periodo: "2013 - Actualmente",
     titulo: "AEM Informática",
-    descripcion: "IT - CCTV - Alarmas",
+    descripcion: "IT - CCTV - Alarmas:",
+    descripcion2: "Instalación y mantenimiento de cámaras de vigilancia, alarmas, control de accesos, redes y soporte IT.",
   },
 
 ];
@@ -110,6 +114,12 @@ const timeline = [
 }
 
 .timeline-descripcion {
+  font-size: 0.9rem;
+  color: #ccc;
+  line-height: 1.3;
+}
+
+.timeline-descripcion2 {
   font-size: 0.9rem;
   color: #ccc;
   line-height: 1.3;

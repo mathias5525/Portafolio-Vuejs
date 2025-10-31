@@ -121,12 +121,14 @@ const educacion = ref([
   border-radius: 10px;
   position: relative;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+  /* Sombra suave */
   transition: all 0.3s ease;
 }
 
 .content:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 14px rgba(255, 255, 255, 0.1);
+  /* Sombra más intensa */
 }
 
 /* Ajuste de puntos para la derecha */
