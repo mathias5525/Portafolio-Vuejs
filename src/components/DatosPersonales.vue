@@ -18,7 +18,7 @@ const redesSociales = [
     src: linkedin,
     url: 'https://www.linkedin.com/in/matias-altamiranda-1a9609b4/?originalSubdomain=arhttps://www.instagram.com/matti_altamiranda/?igsh=czY4cGNvcjJqaTZ0&utm_source=qr#',
   },
-  { id: 2, name: 'Instagram', src: instagram, url: 'https://www.instagram.com/mati_altamiranda/' },
+  { id: 2, name: 'Instagram', src: instagram, url: 'https://www.instagram.com/matti_altamiranda/' },
   { id: 3, name: 'github', src: github, url: 'https://github.com/mathias5525' },
   { id: 4, name: 'email', src: email, url: 'mailto:matiasemanuel25@gmail.com' },
   {
@@ -27,7 +27,7 @@ const redesSociales = [
     src: whatsapp,
     url: 'https://wa.me/+5492622437320?text=Hola%20Matias%2C%20te%20contacto%20desde%20tu%20portafolio.',
   },
-  { id: 6, name: 'curriculum', src: cv, url: 'https://example.com/cv' },
+  { id: 6, name: 'curriculum', src: cv, url: 'https://drive.google.com/file/d/1mb_mcjx145ahoz31fUnQ8H-HgvUAL-H-/view?usp=sharing' },
 ]
 const telefono = '+54 9 2622-437320'
 </script>
@@ -40,9 +40,7 @@ const telefono = '+54 9 2622-437320'
       <p>{{ presentacion }}</p>
       <ul class="container-lista">
         <li v-for="red in redesSociales" :key="red.id">
-          <a :href="red.url"
-            ><img class="icon-redsocial" :src="red.src" width="35rem" :alt="red.name"
-          /></a>
+          <a :href="red.url"><img class="icon-redsocial" :src="red.src" width="35rem" :alt="red.name" /></a>
         </li>
       </ul>
       <h3>Mi Telefono personal: {{ telefono }}</h3>
@@ -78,6 +76,7 @@ p {
   margin: 0;
   text-align: center;
 }
+
 .icon-redsocial {
   align-items: center;
   background-color: aliceblue;
@@ -86,14 +85,17 @@ p {
   margin: 5px;
   box-shadow: 0 0 5px rgba(95, 124, 205, 0.934);
 }
+
 .icon-redsocial:hover {
   background-color: rgb(28, 41, 52);
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.934);
 }
+
 h3 {
   font-size: 1.2rem;
   font-weight: 600;
 }
+
 h4 {
   font-size: 1rem;
   font-weight: 400;
