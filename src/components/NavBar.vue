@@ -4,7 +4,7 @@
       <ul>
         <a v-for="nav in navegacion" :key="nav.nombre" :href="nav.enlace" class="nav-item">{{
           nav.nombre
-        }}</a>
+          }}</a>
       </ul>
     </div>
   </nav>
@@ -23,7 +23,7 @@ const navegacion = ref([
 
 <style scoped>
 .navbar {
-  background-color: var(--vt-c-indigo);
+  background: linear-gradient(90deg, #75757a, #2c2b31);
   color: #fff;
   padding: 0.5rem 1rem;
   align-items: center;
@@ -51,7 +51,7 @@ const navegacion = ref([
 
 a {
   border: 1px solid;
-  border-color: hsla(160, 100%, 37%, 0.2);
+  border-color: hsla(0, 10%, 82%, 0.2);
   border-radius: 5px;
   text-decoration: none;
   /*elimina el subrayado predeterminado de los enlaces */
@@ -62,7 +62,7 @@ a {
 }
 
 a:hover {
-  background-color: hsla(160, 100%, 37%, 0.2);
+  background-color: hsla(247, 75%, 11%, 0.2);
   /*cambia el color de fondo al pasar el ratón */
 }
 

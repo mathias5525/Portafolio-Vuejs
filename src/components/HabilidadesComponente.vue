@@ -41,8 +41,8 @@ const skills = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   },
   {
-    name: "Trello",
-    icon: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/trello.svg",
+    name: "MySQL",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
   },
 ];
 </script>

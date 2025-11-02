@@ -5,6 +5,8 @@ import EducacionTimeLine from './components/EducacionTimeLine.vue';
 import ExperienciaView from './components/ExperienciaView.vue';
 import ProyectoComponente from './components/ProyectoComponente.vue';
 import HabilidadesComponente from './components/HabilidadesComponente.vue';
+import InteresesComponente from './components/InteresesComponente.vue';
+import FooterComponente from './components/FooterComponente.vue';
 </script>
 
 <template>
@@ -38,8 +40,14 @@ import HabilidadesComponente from './components/HabilidadesComponente.vue';
     </section>
     <section id="intereses">
       <h2>Intereses</h2>
+      <!--Componente Intereses Componente-->
+      <InteresesComponente />
     </section>
   </main>
+  <footer>
+    <!--Componente Footer Componente-->
+    <FooterComponente />
+  </footer>
 </template>
 
 <style scoped></style>
