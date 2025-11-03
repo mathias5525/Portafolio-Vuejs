@@ -23,22 +23,22 @@
 <script setup>
 const projects = [
   {
-    title: "App de Clima Vue.js",
-    description: "Sistema de pronóstico del tiempo.",
+    title: "Portafolio Web.",
+    description: "Portafolio personal desarrollado con HTML y CSS.",
     bg: "linear-gradient(135deg, #0b0b2c, #141446)",
-    link: "#",
+    link: "https://github.com/mathias5525/Portafolio_web.git",
   },
   {
-    title: "Web de Recetas y Drinks",
-    description: "Plataforma para compartir recetas y cócteles.",
+    title: "Portafolio Web.",
+    description: "Portafolio HTML, CSS del Grupo Escuadrón Lobo.",
     bg: "linear-gradient(135deg, #00b3b3, #008c8c)",
-    link: "#",
+    link: "https://github.com/mathias5525/Portafolio-Grupo-Escuadron-Lobo.git",
   },
   {
-    title: "Web de planilla de viajes",
-    description: "Plataforma para gestionar itinerarios de viaje.",
+    title: "Repositorio de GitHub.",
+    description: "Repositorio de prueba para inicio: uso de Git y GitHub.",
     bg: "linear-gradient(135deg, #4a00e0, #8e2de2)",
-    link: "#",
+    link: "https://github.com/mathias5525/Prueba-Inicio.Repo.git",
   },
 ];
 </script>
